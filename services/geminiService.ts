@@ -1,7 +1,7 @@
 
 import { GoogleGenAI } from "@google/genai";
 
-const apiKey = process.env.API_KEY || '';
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY || '';
 
 export const askConsultant = async (query: string, reportContext: string) => {
   if (!apiKey) return "API Key no configurada.";
