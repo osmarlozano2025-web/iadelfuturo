@@ -1,0 +1,7 @@
+{
+  "name": "IA 2026: Informe Definitivo",
+  "description": "Un panel interactivo y comparativo de los modelos de IA más potentes de 2026, incluyendo análisis detallados de GPT-5, Claude 4.5 y Gemini 3.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
